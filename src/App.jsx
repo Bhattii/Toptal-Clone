@@ -7,7 +7,7 @@ import { Header } from './layouts/Header';
 
 function App() {
   return (
-    <>
+    <> 
       <Header />
       <HomeOne />
       <CertificateSlider />
