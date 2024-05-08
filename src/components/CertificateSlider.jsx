@@ -46,7 +46,7 @@ const CertificateSlider = () => {
   return (
     <div className=' bg-gray-200  flex justify-center items-center'>
       <div
-        className={`Py-10 flex flex-col justify-around items-center flex-wrap max-h-${sliderHeight}`}
+        className={`my-10 flex flex-col justify-around items-center flex-wrap max-h-${sliderHeight}`}
       > 
         <p className='text-center p-5'>
           TRUSTED BY LEADING BRANDS AND STARTUPS
