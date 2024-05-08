@@ -8,4 +8,11 @@
 
 body {
   background-color: #d2d6e2;
+
 }
+/* @media (min-width: 1500px) {
+  body{
+    display: flex;
+    justify-content: center;
+  }
+} */

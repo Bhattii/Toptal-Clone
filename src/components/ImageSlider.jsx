@@ -28,18 +28,17 @@ const ImageSlider = () => {
   }, [currentimages]);
 
   return (
-    <div className='bg-white 2xl:mx-auto 2xl:w-max text-center'>
+    <div className='bg-white '>
       <div
-        className={`m-[5%] overflow-hidden px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row justify-between items-center max-h-${sliderHeight}`}
+        className={`flex justify-center  gap-2 py-2 flex-wrap max-h-${sliderHeight}`}
       >
-        <div className='py-5 flex items-center gap-2 justify-center flex-wrap flex-grow lg:h-auto lg:flex-nowrap xl:flex-nowrap 2x:flex-nowrap  lg:ml-4'>
           {currentimages.map((images, index) => (
             <div key={index} className='hover:border-2 hover:border-blue-800'>
-              <img src={images} alt={`Image ${index + 1}`} className='' />
+              <img src={images} alt={`Image ${index + 1}`}  className='w-[200px] h-[170px]' />
               <p className='text-center'>Intoduction</p>
             </div>
           ))}
-        </div>
+       
       </div>
     </div>
   );
