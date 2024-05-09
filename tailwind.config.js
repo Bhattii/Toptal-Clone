@@ -10,7 +10,7 @@ export default {
         custom: '0px 8px 10px 0px rgba(0, 0, 0, 0.2)',
       },
       screens: {
-        mdx: [{ max: '1053px', min: '1025px' }],
+        mdx: [{ max: '1053px', min: '1023px' }],
       },
     },
   },

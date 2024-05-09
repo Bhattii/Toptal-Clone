@@ -1,5 +1,6 @@
 import './App.css';
 import CertificateSlider from './components/CertificateSlider';
+import Developer from './components/Developer';
 import HomeHeader from './components/HomeHeader';
 import HomeOne from './components/HomeOne';
 import ImagesSlider from './components/ImageSlider';
@@ -14,6 +15,7 @@ function App() {
       <CertificateSlider />
       <ImagesSlider />
       <HomeHeader/>
+      <Developer/>
       {/* <Practice /> */}
     </>
   );

@@ -155,14 +155,15 @@ export function Header() {
 
       {/* ------------------------- Header ---------------------------- */}
 
-      <div className=' bg-bgGray fixed z-50 w-full'>
-        <div className='mx-[5%] flex items-center justify-between 2xl:justify-center'>
+      <div className='px-[5%] bg-bgGray flex justify-center fixed z-50 w-full'>
+        <div className='flex items-center justify-between w-full 2xl:max-w-[1200px]'>
+         
           <FontAwesomeIcon
             icon={faBars}
             onClick={handleSidebarToggle}
             className='px-3 py-5 size-6 mr-2 md:mr-2 sm:block md:block mdx:block lg:hidden  xl:hidden 2xl:hidden'
           />
-          <div className=' font-small flex items-center justify-between sm:justify-between'>
+          <div className='font-small flex items-center justify-between sm:justify-between'>
             <img
               src={logo}
               className='py-5 smaller:mr-0'
@@ -308,7 +309,7 @@ export function Header() {
             </nav>
           </div>
 
-          <div className='hidden sm:hidden md:hidden mdx:hidden lg:block 2xl:block'>
+          <div className=' hidden sm:hidden md:hidden mdx:hidden lg:block 2xl:block'>
             <a href='' className='py-5 hover:text-blue-500'>
               Apply as a Freelance
             </a>
@@ -326,6 +327,7 @@ export function Header() {
               Log In
             </a>
           </div>
+
         </div>
       </div>
     </>

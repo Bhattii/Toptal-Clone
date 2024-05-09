@@ -4,8 +4,10 @@ import image2 from '../assets/img/image2.jpg';
 import image3 from '../assets/img/image3.jpg';
 import image4 from '../assets/img/image4.jpg';
 import image5 from '../assets/img/image5.jpg';
+import image6 from '../assets/img/image6.jpg';
 
-const images = [image1, image2, image3, image4, image5];
+
+const images = [image1, image2, image3, image4, image5, image6];
 
 const ImageSlider = () => {
   const [currentimages, setCurrentimages] = useState(images);
@@ -33,7 +35,7 @@ const ImageSlider = () => {
         className={`flex justify-center  gap-2 py-2 flex-wrap max-h-${sliderHeight}`}
       >
           {currentimages.map((images, index) => (
-            <div key={index} className='hover:border-2 hover:border-blue-800'>
+            <div key={index} className='border-transparent border-2 hover:border-blue-800 transition duration-300'>
               <img src={images} alt={`Image ${index + 1}`}  className='w-[400px] h-[370px] lg:w-[250px] lg:h-[200px] xl:w-[200px] xl:h-[170px] 2xl:w-[200px] 2xl:h-[170px]' />
               <p className='text-center'>Intoduction</p>
             </div>

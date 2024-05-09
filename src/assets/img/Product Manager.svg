@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="63" width="63">
+  <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+    <ellipse cx="30.67" cy="10.27" fill="#204ecf" fill-rule="nonzero" opacity=".05" rx="10.01" ry="10"/>
+    <g stroke="#204ecf" stroke-width=".75">
+      <ellipse cx="30.67" cy="10.27" rx="10.01" ry="10"/>
+      <ellipse cx="8.81" cy="52.42" rx="8.76" ry="8.75"/>
+      <circle cx="8.81" cy="49.88" r="2.11"/>
+      <path d="M34.43 7.65l-5.01 5.24-2.51-2.62M5.33 57.07c.27-1.7 1.74-2.96 3.47-2.96.87 0 1.67.31 2.29.84s1.06 1.27 1.19 2.12"/>
+      <g transform="translate(27 47)">
+        <circle cx="3.67" cy="2.88" r="2.11"/>
+        <path d="M.19 10.07c.27-1.7 1.74-2.96 3.47-2.96.87 0 1.67.31 2.29.84s1.06 1.27 1.19 2.12"/>
+      </g>
+      <ellipse cx="30.68" cy="52.42" rx="8.76" ry="8.75"/>
+      <g transform="translate(49 47)">
+        <circle cx="3.53" cy="2.88" r="2.11"/>
+        <path d="M.06 10.07c.27-1.7 1.74-2.96 3.47-2.96.87 0 1.67.31 2.29.84s1.06 1.27 1.19 2.12"/>
+      </g>
+      <ellipse cx="52.55" cy="52.42" rx="8.76" ry="8.75"/>
+      <path d="M30.67 23.83v15.4M26.22 22.9v9.07H8.81v7.26M35.18 22.9v9.07h17.41v7.26"/>
+    </g>
+  </g>
+</svg>

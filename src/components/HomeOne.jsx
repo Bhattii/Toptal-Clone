@@ -5,7 +5,7 @@ function HomeOne() {
     <>
       <div className=' bg-bgGray flex z-0 p-20 2xl:mx-auto 2xl:w-max'>
         <div className='m-[5%] flex flex-col lg:flex-row '>
-          <div className='mb-5 flex flex-col justify-center items-center lg:w-1/2 xl:w-1/2 2xl:w-1/2'>
+          <div className='mb-5 flex flex-col justify-center items-center lg:w-1/2 xl:w-1/2 2xl:w-1/2 max-w-[1000px]'>
             <h1 className=' text-5xl text-center leading-normal font-medium text-gray-800 lg:text-left'>
               Hire the
               <a href='#' className='border-b-2 border-black'>

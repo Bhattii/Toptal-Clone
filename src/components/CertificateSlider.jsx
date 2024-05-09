@@ -51,7 +51,7 @@ const CertificateSlider = () => {
         <p className='text-center p-5'>
           TRUSTED BY LEADING BRANDS AND STARTUPS
         </p>
-        <div className='flex flex-grow flex-wrap justify-center items-center'>
+        <div className='flex flex-grow gap-2 flex-wrap justify-center items-center'>
           {currentCertificates.map((certificate, index) => (
             <div
               key={index}
