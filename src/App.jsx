@@ -1,4 +1,5 @@
 import './App.css';
+import BuildTeam from './components/BuildTeam';
 import CertificateSlider from './components/CertificateSlider';
 import Developer from './components/Developer';
 import HomeHeader from './components/HomeHeader';
@@ -16,6 +17,7 @@ function App() {
       <ImagesSlider />
       <HomeHeader/>
       <Developer/>
+      <BuildTeam/>
       {/* <Practice /> */}
     </>
   );

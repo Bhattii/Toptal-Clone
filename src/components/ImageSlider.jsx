@@ -32,7 +32,7 @@ const ImageSlider = () => {
   return (
     <div className='bg-white '>
       <div
-        className={`flex justify-center  gap-2 py-2 flex-wrap max-h-${sliderHeight}`}
+        className={`flex justify-center px-5  gap-2 py-2 flex-wrap max-h-${sliderHeight}`}
       >
           {currentimages.map((images, index) => (
             <div key={index} className='border-transparent border-2 hover:border-blue-800 transition duration-300'>

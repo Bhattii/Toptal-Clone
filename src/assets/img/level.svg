@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="64" viewBox="0 0 64 64" width="64">
+  <g style="stroke:#204ecf;stroke-width:.5;fill:none;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round" transform="translate(1 1)">
+    <path d="m61.5 61.42h-61"/>
+    <path d="m61.5 51.08v-50.5h-12.82v50.5"/>
+    <path d="m13.32 51.08v-17.16h-12.82v17.16"/>
+    <path d="m37.4 51.08v-33.84h-12.8v33.84"/>
+  </g>
+</svg>
