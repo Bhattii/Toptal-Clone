@@ -37,7 +37,8 @@ const ImageSlider = () => {
           {currentimages.map((images, index) => (
             <div key={index} className='border-transparent border-2 hover:border-blue-800 transition duration-300'>
               <img src={images} alt={`Image ${index + 1}`}  className='w-[400px] h-[370px] lg:w-[250px] lg:h-[200px] xl:w-[200px] xl:h-[170px] 2xl:w-[200px] 2xl:h-[170px]' />
-              <p className='text-center'>Intoduction</p>
+              <h3 className='text-center font-bold'>Intoduction</h3>
+              <p className='text-center'>Lorem ipsum dolor sit </p>
             </div>
           ))}
        
