@@ -9,7 +9,7 @@ import person3 from "../assets/img/image3.jpg";
 function BuildTeam() {
   return (
     <div className="bg-gray-100 p-20 flex justify-center">
-      <div className="  flex flex-col items-center justify-center md:flex-row">
+      <div className="  flex flex-col items-center justify-center gap-7 md:flex-row">
         <div className="w-1/2">
           <div className="mb-16">
             <h2 className="text-4xl lg:text-5xl  font-semibold pb-5">
@@ -63,29 +63,32 @@ function BuildTeam() {
           </div>
         </div>
         <div className="w-1/2 2xl:w-1/4  hidden lg:block">
-        <div className=" flex flex-col 2xl:items-start">
-          <div className="w-60 border relative top-20">
-            <img src={person1} alt="" />
-            <h3 className="text-center font-bold">Introduction 1</h3>
-            <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-          </div>
-          
-          <div className="w-60 border relative left-64 z-10">
-            <img src={person2} alt="" />
-            <h3 className="text-center font-bold">Introduction 2</h3>
-            <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-          </div>
+          <div className="flex flex-col 2xl:items-start">
+            <div className="bg-white w-60 border relative top-20 shadow-2xl">
+              <img src={person1} alt="" />
+              <h3 className="text-center font-bold">Introduction 1</h3>
+              <p className="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
+              </p>
+            </div>
 
-          <div className="w-60 border relative bottom-5 left-20 z-0">
-            <img src={person3} alt="" />
-            <h3 className="text-center font-bold">Introduction 3</h3>
-            <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <div className="bg-white w-60 border relative left-64 shadow-2xl z-10">
+              <img src={person2} alt="" />
+              <h3 className="text-center font-bold">Introduction 2</h3>
+              <p className=" text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
+              </p>
+            </div>
+
+            <div className="bg-white w-60 border relative bottom-5 left-20 shadow-2xl z-0">
+              <img src={person3} alt="" />
+              <h3 className="text-center font-bold">Introduction 3</h3>
+              <p className="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
+              </p>
+            </div>
           </div>
-        
-        
         </div>
-        </div>
-       
       </div>
     </div>
   );
