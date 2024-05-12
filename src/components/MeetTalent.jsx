@@ -1,3 +1,7 @@
+import person1 from "../assets/img/image1.jpg";
+import shopify from "../assets/img/shopify.svg";
+import toptal from "../assets/img/Toptal.svg";
+import toptalLogo from "../assets/img/toptal-logo.svg";
 function MeetTalent() {
   return (
     <>
@@ -6,13 +10,13 @@ function MeetTalent() {
           <h2 className="text-4xl text-center font-semibold my-20">
             Meet Talent in Our Network
           </h2>
-          <div>
-            <ul className="text-gray-700 flex gap-3 py-5 border-y-[1px] border-gray-500">
+          <div className="">
+            <ul className="text-gray-700 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-3 py-5 border-y-[1px] border-gray-500 text-sm">
               <li className="hover:cursor-pointer border-r-[1px] border-gray-500 group py-1 focus-within:bg-blue-800 focus-within:rounded focus-within:text-white ">
                 <a
                   href="#developers"
                   id="developers"
-                  className="flex items-center justify-center gap-4 px-6">
+                  className="flex items-center justify-center gap-4 px-4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -33,7 +37,7 @@ function MeetTalent() {
                 <a
                   href="#Designers"
                   id="Designers"
-                  className="flex items-center gap-5 px-6 ">
+                  className="flex items-center justify-center gap-5 px-4 ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="14"
@@ -61,7 +65,7 @@ function MeetTalent() {
                 <a
                   href="#FinanceExperts"
                   id="FinanceExperts"
-                  className="flex items-center gap-5 px-6">
+                  className="flex items-center justify-center gap-5 px-4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="18"
@@ -95,7 +99,7 @@ function MeetTalent() {
                 <a
                   href="#ProjectMangers"
                   id="ProjectMangers"
-                  className="flex items-center gap-5 px-6 ">
+                  className="flex items-center justify-center gap-5 px-4 ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="19"
@@ -123,7 +127,7 @@ function MeetTalent() {
                 <a
                   href="#ProductManagers"
                   id="ProductManagers"
-                  className="flex items-center gap-5 px-6">
+                  className="flex items-center justify-center gap-5 px-4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 30 30"
@@ -151,7 +155,7 @@ function MeetTalent() {
                 <a
                   href="#MarketingExperts"
                   id="MarketingExperts"
-                  className="flex items-center gap-5 px-6">
+                  className="flex items-center justify-center gap-5 px-4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 30 30"
@@ -170,6 +174,259 @@ function MeetTalent() {
                 </a>
               </li>
             </ul>
+          </div>
+          <div className="flex justify-center items-center">
+            <div className="mt-10 grid gap-3 grid-cols-1 md:grid-cols-2 xl:grid-cols-4 place-items-center">
+              <div className=" shadow-2xl bottom-1 w-[270px] flex justify-center items-center bg-white p-4">
+                <div className="">
+                  <img
+                    src={person1}
+                    alt="developer image"
+                    width="200px"
+                    className=""
+                  />
+                  <h3 className="text-blue-700 font-semibold hover:cursor-pointer hover:underline p-1">
+                    Gabriel Courtemanche
+                  </h3>
+                  <div className="flex gap-1">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="green"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        fill="green"
+                        d="m2.3438,5.6562l-2.3438,2.3438,2.3438,2.3438v3.3137h3.3137l2.3425,2.3425,2.3425-2.3425h3.315v-3.315l2.3425-2.3425-2.3425-2.3425v-3.3137h-3.3138l-2.3437-2.3438-2.3438,2.3438h-3.3125v3.3125Zm5.0488,2.7528l2.754-2.7654.9705.9739-3.7245,3.7399-.9705-.9739-1.3672-1.3733.9705-.9752,1.3672,1.3739Z"></path>
+                      <path
+                        className="text-white dark:text-transparent"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M10.1465 5.64374L7.39254 8.4091L6.02535 7.03518L5.05485 8.01039L6.42204 9.38364L7.39254 10.3575L11.117 6.61761L10.1465 5.64374Z"
+                        fill="white"></path>
+                    </svg>
+                    <h3 className="text-green-800 whitespace-nowrap text-sm">
+                      <span className="font-semibold ">Verified Expert</span> in
+                      Engineering
+                    </h3>
+                  </div>
+                  <div className="flex gap-1 mb-4 mt-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="none"
+                      data-testid="developers_icon"
+                      className="text-brand-blue" // assuming you have defined brand-blue color in Tailwind config
+                    >
+                      <path
+                        fill="#204ECF" // This color may be overridden by the CSS class, you can remove it if not needed
+                        fillRule="evenodd"
+                        d="M10.1 1.125 6.875 15.1l-.975-.225L9.125.9l.975.225ZM1.63 8l3.074-4.1-.8-.6L.38 8l3.525 4.702.8-.6L1.63 8Zm9.674 4.103.8.6L15.63 8l-3.525-4.7-.8.6L14.38 8l-3.075 4.103Z"
+                        clipRule="evenodd"></path>
+                    </svg>
+                    <h3 className="text-sm">JavaScript Developer </h3>
+                  </div>
+
+                  <div>
+                    <h3 className="text-sm">Expertise</h3>
+                    <div className="grid grid-cols-2 text-center text-sm">
+                      <span className=" border border-gray-500 rounded-xl py-1 px-2 m-3 hover:bg-slate-200 ">
+                        DevOps
+                      </span>
+                      <span className=" border border-gray-500 rounded-xl py-1 px-2 m-3 hover:bg-slate-200">
+                        Git
+                      </span>
+                      <span className=" border border-gray-500 rounded-xl py-1 px-2 m-3 hover:bg-slate-200">
+                        NodeJs
+                      </span>
+                      <span className=" border border-gray-500 rounded-xl py-1 px-2 m-3 hover:bg-slate-200">
+                        JavaScript
+                      </span>
+                    </div>
+                    <h3 className="uppercase my-2 text-sm">Previously at</h3>
+                    <img src={shopify} alt="shopify logo" />
+                  </div>
+                </div>
+              </div>
+
+              <div className=" shadow-2xl bottom-1 w-[270px] flex justify-center items-center bg-white p-4">
+                <div className="">
+                  <img
+                    src={person1}
+                    alt="developer image"
+                    width="200px"
+                    className=""
+                  />
+                  <h3 className="text-blue-700 font-semibold hover:cursor-pointer hover:underline p-1">
+                    Gabriel Courtemanche
+                  </h3>
+                  <div className="flex gap-1">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="green"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        fill="green"
+                        d="m2.3438,5.6562l-2.3438,2.3438,2.3438,2.3438v3.3137h3.3137l2.3425,2.3425,2.3425-2.3425h3.315v-3.315l2.3425-2.3425-2.3425-2.3425v-3.3137h-3.3138l-2.3437-2.3438-2.3438,2.3438h-3.3125v3.3125Zm5.0488,2.7528l2.754-2.7654.9705.9739-3.7245,3.7399-.9705-.9739-1.3672-1.3733.9705-.9752,1.3672,1.3739Z"></path>
+                      <path
+                        className="text-white dark:text-transparent"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M10.1465 5.64374L7.39254 8.4091L6.02535 7.03518L5.05485 8.01039L6.42204 9.38364L7.39254 10.3575L11.117 6.61761L10.1465 5.64374Z"
+                        fill="white"></path>
+                    </svg>
+                    <h3 className="text-green-800 whitespace-nowrap text-sm">
+                      <span className="font-semibold ">Verified Expert</span> in
+                      Engineering
+                    </h3>
+                  </div>
+                  <div className="flex gap-1 mb-4 mt-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="none"
+                      data-testid="developers_icon"
+                      className="text-brand-blue" // assuming you have defined brand-blue color in Tailwind config
+                    >
+                      <path
+                        fill="#204ECF" // This color may be overridden by the CSS class, you can remove it if not needed
+                        fillRule="evenodd"
+                        d="M10.1 1.125 6.875 15.1l-.975-.225L9.125.9l.975.225ZM1.63 8l3.074-4.1-.8-.6L.38 8l3.525 4.702.8-.6L1.63 8Zm9.674 4.103.8.6L15.63 8l-3.525-4.7-.8.6L14.38 8l-3.075 4.103Z"
+                        clipRule="evenodd"></path>
+                    </svg>
+                    <h3 className="text-sm">JavaScript Developer </h3>
+                  </div>
+
+                  <div>
+                    <h3 className="text-sm">Expertise</h3>
+                    <div className="grid grid-cols-2 text-center text-sm">
+                      <span className=" border border-gray-500 rounded-xl py-1 px-2 m-3 hover:bg-slate-200 ">
+                        DevOps
+                      </span>
+                      <span className=" border border-gray-500 rounded-xl py-1 px-2 m-3 hover:bg-slate-200">
+                        Git
+                      </span>
+                      <span className=" border border-gray-500 rounded-xl py-1 px-2 m-3 hover:bg-slate-200">
+                        NodeJs
+                      </span>
+                      <span className=" border border-gray-500 rounded-xl py-1 px-2 m-3 hover:bg-slate-200">
+                        JavaScript
+                      </span>
+                    </div>
+                    <h3 className="uppercase my-2 text-sm">Previously at</h3>
+                    <img src={shopify} alt="shopify logo" />
+                  </div>
+                </div>
+              </div>
+
+              <div className=" shadow-2xl bottom-1 w-[270px] flex justify-center items-center bg-white p-4">
+                <div className="">
+                  <img
+                    src={person1}
+                    alt="developer image"
+                    width="200px"
+                    className=""
+                  />
+                  <h3 className="text-blue-700 font-semibold hover:cursor-pointer hover:underline p-1">
+                    Gabriel Courtemanche
+                  </h3>
+                  <div className="flex gap-1">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="green"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        fill="green"
+                        d="m2.3438,5.6562l-2.3438,2.3438,2.3438,2.3438v3.3137h3.3137l2.3425,2.3425,2.3425-2.3425h3.315v-3.315l2.3425-2.3425-2.3425-2.3425v-3.3137h-3.3138l-2.3437-2.3438-2.3438,2.3438h-3.3125v3.3125Zm5.0488,2.7528l2.754-2.7654.9705.9739-3.7245,3.7399-.9705-.9739-1.3672-1.3733.9705-.9752,1.3672,1.3739Z"></path>
+                      <path
+                        className="text-white dark:text-transparent"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M10.1465 5.64374L7.39254 8.4091L6.02535 7.03518L5.05485 8.01039L6.42204 9.38364L7.39254 10.3575L11.117 6.61761L10.1465 5.64374Z"
+                        fill="white"></path>
+                    </svg>
+                    <h3 className="text-green-800 whitespace-nowrap text-sm">
+                      <span className="font-semibold ">Verified Expert</span> in
+                      Engineering
+                    </h3>
+                  </div>
+                  <div className="flex gap-1 mb-4 mt-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="none"
+                      data-testid="developers_icon"
+                      className="text-brand-blue" // assuming you have defined brand-blue color in Tailwind config
+                    >
+                      <path
+                        fill="#204ECF" // This color may be overridden by the CSS class, you can remove it if not needed
+                        fillRule="evenodd"
+                        d="M10.1 1.125 6.875 15.1l-.975-.225L9.125.9l.975.225ZM1.63 8l3.074-4.1-.8-.6L.38 8l3.525 4.702.8-.6L1.63 8Zm9.674 4.103.8.6L15.63 8l-3.525-4.7-.8.6L14.38 8l-3.075 4.103Z"
+                        clipRule="evenodd"></path>
+                    </svg>
+                    <h3 className="text-sm">JavaScript Developer </h3>
+                  </div>
+
+                  <div>
+                    <h3 className="text-sm">Expertise</h3>
+                    <div className="grid grid-cols-2 text-center text-sm">
+                      <span className=" border border-gray-500 rounded-xl py-1 px-2 m-3 hover:bg-slate-200 ">
+                        DevOps
+                      </span>
+                      <span className=" border border-gray-500 rounded-xl py-1 px-2 m-3 hover:bg-slate-200">
+                        Git
+                      </span>
+                      <span className=" border border-gray-500 rounded-xl py-1 px-2 m-3 hover:bg-slate-200">
+                        NodeJs
+                      </span>
+                      <span className=" border border-gray-500 rounded-xl py-1 px-2 m-3 hover:bg-slate-200">
+                        JavaScript
+                      </span>
+                    </div>
+                    <h3 className="uppercase my-2 text-sm">Previously at</h3>
+                    <img src={shopify} alt="shopify logo" />
+                  </div>
+                </div>
+              </div>
+
+              <div className=" relative shadow-2xl 2xl:w-[270px] bg-blue-900 bg-transparent rounded ">
+                <div className="h-[448px] m-4">
+                  <img
+                    alt="logo image"
+                    className="absolute z-10"
+                    src={toptal}
+                    width="250px"
+                  />
+                  <div className="text-white text-center w-full h-full z-20 flex items-center justify-center flex-col ">
+                    <img
+                      alt="Toptal emblem"
+                      className="mb-4"
+                      src={toptalLogo}
+                      width="36"
+                      height="48"
+                    />
+                    <div className="mb-6">
+                      <h3 className=" text-2xl font-semibold">
+                        Discover 20,000+ More Talent
+                      </h3>
+                      <p className="py-3">in the Toptal Network</p>
+                    </div>
+                    <a
+                      href=""
+                      className="bg-green-500 px-4 py-2 rounded hover:cursor-pointer">
+                      Discover Toptal Talent
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
