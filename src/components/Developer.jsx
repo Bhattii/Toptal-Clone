@@ -9,8 +9,19 @@ import marketing from "../assets/img/Marketing Expert.svg";
 
 function Developer() {
   return (
-    <div className="p-20 bg-white">
-      <div className="flex justify-center items-center ">
+    <div className="p-20 bg-white flex justify-center items-center">
+      <div className="max-w-[1200px]">
+        <div className=" flex flex-col justify-center items-center mb-4 ">
+          <h2 className="text-5xl text-gray-900 font-semibold text-center">
+            Leverage World-Class Talent
+          </h2>
+          <p className="m-6 text-center text-gray-500 max-w-[600px]">
+            We are the largest, globally-distributed network of top business,
+            design, and technology talent, ready to tackle your most important
+            initiatives.
+          </p>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-1 max-w-[1300px]">
           <div className="bg-gray-200 p-10 hover:cursor-pointer  hover:bg-blue-600 hover:text-white group transition">
             <img

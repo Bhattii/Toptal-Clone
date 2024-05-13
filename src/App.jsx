@@ -3,10 +3,11 @@ import BuildTeam from "./components/BuildTeam";
 import CertificateSlider from "./components/CertificateSlider";
 import Developer from "./components/Developer";
 import Hiring from "./components/Hiring";
-import HomeHeader from "./components/HomeHeader";
+
 import HomeOne from "./components/HomeOne";
 import ImagesSlider from "./components/ImageSlider";
 import MeetTalent from "./components/MeetTalent";
+import OrganizationsChoose from "./components/OrganizationsChoose";
 // import Practice from './components/Practice';
 import { Header } from "./layouts/Header";
 
@@ -17,11 +18,12 @@ function App() {
       <HomeOne />
       <CertificateSlider />
       <ImagesSlider />
-      <HomeHeader />
+
       <Developer />
       <BuildTeam />
       <Hiring />
       <MeetTalent />
+      <OrganizationsChoose />
       {/* <Practice /> */}
     </>
   );
