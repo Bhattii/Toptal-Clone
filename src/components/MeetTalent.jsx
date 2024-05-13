@@ -396,13 +396,12 @@ function MeetTalent() {
                 </div>
               </div>
 
-              <div className=" relative shadow-2xl 2xl:w-[270px] bg-blue-900 bg-transparent rounded ">
-                <div className="h-[448px] m-4">
+              <div className=" relative shadow-2xl 2xl:w-[270px]  bg-transparent rounded ">
+                <div className="h-[477px] bg-blue-900 px-6">
                   <img
                     alt="logo image"
-                    className="absolute z-10"
+                    className="absolute z-10 h-fit"
                     src={toptal}
-                    width="250px"
                   />
                   <div className="text-white text-center w-full h-full z-20 flex items-center justify-center flex-col ">
                     <img
@@ -418,9 +417,7 @@ function MeetTalent() {
                       </h3>
                       <p className="py-3">in the Toptal Network</p>
                     </div>
-                    <a
-                      href=""
-                      className="bg-green-500 px-4 py-2 rounded hover:cursor-pointer">
+                    <a href="#" className="bg-green-500 px-4 py-2 rounded">
                       Discover Toptal Talent
                     </a>
                   </div>
