@@ -9,6 +9,7 @@ import HomeOne from "./components/HomeOne";
 import ImagesSlider from "./components/ImageSlider";
 import MeetTalent from "./components/MeetTalent";
 import OrganizationsChoose from "./components/OrganizationsChoose";
+import ReadyToGetStarted from "./components/ReadyToGetStarted";
 // import Practice from './components/Practice';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <MeetTalent />
       <OrganizationsChoose />
       <Collaborations />
+      <ReadyToGetStarted />
       {/* <Practice /> */}
     </>
   );
