@@ -12,7 +12,8 @@ import OrganizationsChoose from "./components/OrganizationsChoose";
 import ReadyToGetStarted from "./components/ReadyToGetStarted";
 import ClientSatification from "./components/ClientSatification";
 import ExploreTrending from "./components/ExploreTrending";
-// import Practice from './components/Practice';
+import DiscoverOurSkills from "./components/DiscoverOurSkills";
+// import Practice from "./components/Practice";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <ReadyToGetStarted />
       <ClientSatification />
       <ExploreTrending />
+      <DiscoverOurSkills />
       {/* <Practice /> */}
     </>
   );
