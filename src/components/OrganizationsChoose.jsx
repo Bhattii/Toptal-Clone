@@ -22,7 +22,7 @@ function OrganizationsChoose() {
               benefits of the Toptal network.
             </p>
           </div>
-          <div>
+          <div className="flex flex-col justify-center items-center">
             <ul className="grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 ">
               <li className="relative group">
                 <div className="relative max-w-[330px]  overflow-hidden ">

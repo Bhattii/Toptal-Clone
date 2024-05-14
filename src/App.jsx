@@ -10,6 +10,7 @@ import ImagesSlider from "./components/ImageSlider";
 import MeetTalent from "./components/MeetTalent";
 import OrganizationsChoose from "./components/OrganizationsChoose";
 import ReadyToGetStarted from "./components/ReadyToGetStarted";
+import ClientSatification from "./components/ClientSatification";
 // import Practice from './components/Practice';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <OrganizationsChoose />
       <Collaborations />
       <ReadyToGetStarted />
+      <ClientSatification />
       {/* <Practice /> */}
     </>
   );
