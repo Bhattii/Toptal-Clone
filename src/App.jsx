@@ -13,6 +13,7 @@ import ReadyToGetStarted from "./components/ReadyToGetStarted";
 import ClientSatification from "./components/ClientSatification";
 import ExploreTrending from "./components/ExploreTrending";
 import DiscoverOurSkills from "./components/DiscoverOurSkills";
+import TopTalent from "./components/TopTalent";
 // import Practice from "./components/Practice";
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <ClientSatification />
       <ExploreTrending />
       <DiscoverOurSkills />
+      <TopTalent />
       {/* <Practice /> */}
     </>
   );

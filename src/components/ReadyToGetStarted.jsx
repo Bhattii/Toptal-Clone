@@ -5,7 +5,6 @@ import bg from "../assets/img/bg.avif";
 function ReadyToGetStarted() {
   return (
     <>
-      {" "}
       <div className="bg-gray-100 p-11 flex flex-col justify-center items-center">
         <div className="max-w-[1200px] flex flex-col justify-center items-center">
           <div className="mb-11 flex flex-col lg:flex-row gap-3 justify-center items-center">
@@ -15,7 +14,7 @@ function ReadyToGetStarted() {
             <span className="px-3 py-3">
               <a
                 href=""
-                className="bg-green-400 py-3 px-4 lg:px-8 font-semibold shadow rounded-md text-white text-nowrap hover:bg-green-400">
+                className="bg-green-500 py-3 px-4 lg:px-8 font-semibold shadow rounded-md text-white text-nowrap hover:bg-green-700">
                 Hire Top Talent
               </a>
             </span>
