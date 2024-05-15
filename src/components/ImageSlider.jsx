@@ -40,7 +40,7 @@ const ImageSlider = () => {
             <img
               src={images}
               alt={`Image ${index + 1}`}
-              className="w-[400px] h-[370px] lg:w-[250px] lg:h-[200px] xl:w-[200px] xl:h-[170px] 2xl:w-[200px] 2xl:h-[170px]"
+              className="w-[400px] object-cover h-[370px] lg:w-[250px] lg:h-[200px] xl:w-[200px] xl:h-[170px] 2xl:w-[200px] 2xl:h-[170px]"
             />
             <div className="">
               <h3 className="text-blue-700 font-semibold hover:cursor-pointer hover:underline p-1">

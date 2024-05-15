@@ -14,6 +14,7 @@ import ClientSatification from "./components/ClientSatification";
 import ExploreTrending from "./components/ExploreTrending";
 import DiscoverOurSkills from "./components/DiscoverOurSkills";
 import TopTalent from "./components/TopTalent";
+import Footer from "./layouts/Footer";
 // import Practice from "./components/Practice";
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
       <ExploreTrending />
       <DiscoverOurSkills />
       <TopTalent />
+      <Footer />
       {/* <Practice /> */}
     </>
   );
