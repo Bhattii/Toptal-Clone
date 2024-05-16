@@ -86,7 +86,7 @@ function HireTheTop() {
           </div>
 
           <div className="flex flex-col sm:flex-row sm:justify-between justify-center items-center lg:gap-3 ">
-            <div className="relative w-[500px] lg:w-[600px] order-2 sm:order-1">
+            <div className="relative w-full h-full order-2 sm:order-1">
               <img
                 src={image1}
                 alt=""
