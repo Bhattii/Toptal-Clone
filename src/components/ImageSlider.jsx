@@ -30,19 +30,19 @@ const ImageSlider = () => {
   }, [currentimages]);
 
   return (
-    <div className="bg-white flex justify-center items-center">
+    <div className="bg-white flex justify-center items-center ">
       <div
-        className={`max-w-[1200px] p-10 place-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-rows-1 gap-3 max-h-${sliderHeight}`}>
+        className={`max-w-[1200px] p-10 flex gap-5 overflow-hidden max-h-${sliderHeight}`}>
         {currentimages.map((images, index) => (
           <div
             key={index}
-            className="p-2 flex flex-col justify-center items-center w-[250px] border-transparent shadow-xl border-2 hover:border-blue-800 duration-300">
+            className="group transition ease-linear opacity-85 hover:opacity-100 flex flex-col justify-center items-center w-[200px] border-transparent shadow-xl border-2 hover:border-blue-800 duration-300">
             <img
               src={images}
               alt={`Image ${index + 1}`}
-              className="w-[400px] object-cover h-[370px] lg:w-[250px] lg:h-[200px] xl:w-[200px] xl:h-[170px] 2xl:w-[200px] 2xl:h-[170px]"
+              className="object-cover w-full h-full "
             />
-            <div className="">
+            <div className="p-3">
               <h3 className="text-blue-700 font-semibold hover:cursor-pointer hover:underline p-1">
                 Gabriel Courtemanche
               </h3>
@@ -64,7 +64,7 @@ const ImageSlider = () => {
                     d="M10.1465 5.64374L7.39254 8.4091L6.02535 7.03518L5.05485 8.01039L6.42204 9.38364L7.39254 10.3575L11.117 6.61761L10.1465 5.64374Z"
                     fill="white"></path>
                 </svg>
-                <h3 className="text-green-800 whitespace-nowrap text-sm">
+                <h3 className="text-green-800 text-sm">
                   <span className="font-semibold ">Verified Expert</span> in
                   Engineering
                 </h3>
@@ -89,21 +89,6 @@ const ImageSlider = () => {
               </div>
 
               <div className="">
-                <h3 className="text-sm">Expertise</h3>
-                <div className="grid grid-cols-2 text-center text-sm">
-                  <span className=" border border-gray-500 rounded-xl py-1 px-2 m-3 hover:bg-slate-200 ">
-                    DevOps
-                  </span>
-                  <span className=" border border-gray-500 rounded-xl py-1 px-2 m-3 hover:bg-slate-200">
-                    Git
-                  </span>
-                  <span className=" border border-gray-500 rounded-xl py-1 px-2 m-3 hover:bg-slate-200">
-                    NodeJs
-                  </span>
-                  <span className=" border border-gray-500 rounded-xl py-1 px-2 m-3 hover:bg-slate-200">
-                    JavaScript
-                  </span>
-                </div>
                 <h3 className="uppercase my-2 text-sm">Previously at</h3>
                 <img src={shopify} alt="shopify logo" />
               </div>
