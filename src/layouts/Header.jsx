@@ -109,10 +109,28 @@ export function Header() {
             />
             <nav className="hidden lg:block">
               <ul className="flex gap-4 px-4 hover:cursor-pointer ">
-                <li className="py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800">
-                  <a href="">Top 3%</a>
+                <li
+                  key={1}
+                  className={`py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800 ${
+                    activeIndex !== null && activeIndex !== 1
+                      ? "opacity-50"
+                      : ""
+                  }`}
+                  onMouseEnter={() => setActiveIndex(1)}
+                  onMouseLeave={() => setActiveIndex(null)}>
+                  <a href="" className={``}>
+                    Top 3%
+                  </a>
                 </li>
-                <li className="group flex justify-center items-center relative">
+                <li
+                  key={2}
+                  className={`group flex justify-center items-center relative  ${
+                    activeIndex !== null && activeIndex !== 2
+                      ? "opacity-50"
+                      : ""
+                  }`}
+                  onMouseEnter={() => setActiveIndex(2)}
+                  onMouseLeave={() => setActiveIndex(null)}>
                   <div className="py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800">
                     Hire Talent
                     <FontAwesomeIcon
@@ -144,16 +162,48 @@ export function Header() {
                     </ul>
                   </div>
                 </li>
-                <li className="py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800">
+                <li
+                  key={3}
+                  className={`py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800  ${
+                    activeIndex !== null && activeIndex !== 3
+                      ? "opacity-50"
+                      : ""
+                  }`}
+                  onMouseEnter={() => setActiveIndex(3)}
+                  onMouseLeave={() => setActiveIndex(null)}>
                   <a href="">Why</a>
                 </li>
-                <li className="py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800">
+                <li
+                  key={4}
+                  className={`py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800  ${
+                    activeIndex !== null && activeIndex !== 4
+                      ? "opacity-50"
+                      : ""
+                  }`}
+                  onMouseEnter={() => setActiveIndex(4)}
+                  onMouseLeave={() => setActiveIndex(null)}>
                   <a href="">Clients</a>
                 </li>
-                <li className="py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800">
+                <li
+                  key={5}
+                  className={`py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800  ${
+                    activeIndex !== null && activeIndex !== 5
+                      ? "opacity-50"
+                      : ""
+                  }`}
+                  onMouseEnter={() => setActiveIndex(5)}
+                  onMouseLeave={() => setActiveIndex(null)}>
                   <a href="">Blogs</a>
                 </li>
-                <li className="py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800">
+                <li
+                  key={6}
+                  className={`py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800  ${
+                    activeIndex !== null && activeIndex !== 6
+                      ? "opacity-50"
+                      : ""
+                  }`}
+                  onMouseEnter={() => setActiveIndex(6)}
+                  onMouseLeave={() => setActiveIndex(null)}>
                   <a href="">About Us</a>
                 </li>
               </ul>
