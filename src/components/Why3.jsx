@@ -2,7 +2,7 @@ export const Why3 = () => {
   return (
     <>
       <div className="bg-blue-900 p-11 flex flex-col justify-center items-center">
-        <div className="max-w-[1200px] flex flex-col justify-center items-center">
+        <div className="max-w-[1200px] w-full flex flex-col justify-center items-center">
           <div className="pt-20 pb-10 text-white text-center w-2/3">
             <h2 className=" text-5xl p-4">Why 3%?</h2>
             <div className="p-5 text-xl">

@@ -28,123 +28,77 @@ export function Header() {
       {/*-----------------------  Header Side Bar ---------------- */}
       <div
         className={`fixed z-50 top-16 left-0 h-screen bg-gray-200 ${
-          isSidebarOpen ? "w-64" : "w-0"
+          isSidebarOpen ? "w-[50%]" : "w-0"
         } transition-all duration-300 overflow-hidden`}>
+        <button
+          onClick={handleSidebarToggle}
+          className="text-2xl absolute right-5 top-5">
+          <FontAwesomeIcon icon={faTimes} />
+        </button>
         {/* Sidebar content */}
-        <div className="flex flex-col ">
-          <button
-            onClick={handleSidebarToggle}
-            className="text-2xl absolute right-1">
-            <FontAwesomeIcon icon={faTimes} />
-          </button>
-
-          <a
-            href="#"
-            className="py-2 px-4 my-2 hover:text-blue-500"
-            onClick={() => handleAnchorClick("Top 3%")}>
-            Top 3%
-          </a>
-
-          <a href="#" className=" hover:text-blue-500">
-            <button
-              className="px-3 hover:border-b-2"
-              onMouseEnter={handleDropdown}
-              onMouseLeave={handleDropdown}>
-              <div
-                key={2}
-                className={`py-5 ${
-                  activeIndex !== null && activeIndex !== 2 ? "opacity-50" : ""
-                }`}
-                onMouseEnter={() => setActiveIndex(2)}
-                onMouseLeave={() => setActiveIndex(null)}>
+        <nav className={`p-10`}>
+          <ul className={`flex flex-col gap-4 hover:cursor-pointer`}>
+            <li className="" onClick={handleSidebarToggle}>
+              <a href="">Top 3%</a>
+            </li>
+            <li className="group flex relative">
+              <div className="">
                 Hire Talent
                 <FontAwesomeIcon
                   icon={faArrowDown}
-                  className={`size-2 mx-1 ${hover ? "rotate-180" : "rotate-0"}`}
+                  width="7px"
+                  className="ml-1 group-hover:rotate-180"
                 />
               </div>
-
-              <div
-                className={`shadow-custom absolute flex-col left-0 z-1 bg-bgGray ${
-                  hover ? "flex" : "hidden"
-                }`}>
-                <div className="flex flex-col items-start bg-white">
-                  <a
-                    href=""
-                    className=" px-4 py-3 hover:text-blue-700"
-                    onClick={() => handleAnchorClick("Anchor 2")}>
-                    Developers
-                  </a>
-                  <a
-                    href=""
-                    className="  px-4 py-3 hover:text-blue-700"
-                    onClick={() => handleAnchorClick("Anchor 2")}>
-                    Designers
-                  </a>
-                  <a
-                    href=""
-                    className=" whitespace-nowrap px-4 py-3 hover:text-blue-700"
-                    onClick={() => handleAnchorClick("Anchor 2")}>
-                    Marketing Experts
-                  </a>
-                  <a
-                    href=""
-                    className="whitespace-nowrap px-4 py-3 hover:text-blue-700 "
-                    onClick={() => handleAnchorClick("Anchor 2")}>
-                    Product Managers
-                  </a>
-                  <a
-                    href=""
-                    className="whitespace-nowrap px-4 py-3 hover:text-blue-700 "
-                    onClick={() => handleAnchorClick("Anchor 2")}>
-                    Project Managers
-                  </a>
-                  <a
-                    href=""
-                    className="whitespace-nowrap px-4 py-3 hover:text-blue-700 "
-                    onClick={() => handleAnchorClick("Anchor 2")}>
-                    Finance Experts
-                  </a>
-                </div>
+              <div className="hidden group-hover:block absolute right-0">
+                <ul className="bg-white py-5 px-10 text-nowrap grid gap-4 hover:cursor-pointer">
+                  <li className="hover:text-blue-800 ">
+                    <a href="">Developers</a>
+                  </li>
+                  <li className="hover:text-blue-800">
+                    <a href=""></a>Designers
+                  </li>
+                  <li className="hover:text-blue-800">
+                    <a href=""></a>Marketing Experts
+                  </li>
+                  <li className="hover:text-blue-800">
+                    <a href=""></a>Project Mangers
+                  </li>
+                  <li className="hover:text-blue-800">
+                    <a href=""></a>Product Managers
+                  </li>
+                  <li className="hover:text-blue-800">
+                    <a href=""></a>Finance Experts
+                  </li>
+                </ul>
               </div>
-            </button>
-          </a>
-
-          <a
-            href="#"
-            className="py-2 px-4 my-2 hover:text-blue-500 "
-            onClick={() => handleAnchorClick("Clients")}>
-            Clients
-          </a>
-          <a
-            href="#"
-            className="py-2 px-4 my-2 hover:text-blue-500 "
-            onClick={() => handleAnchorClick("Blogs")}>
-            Blogs{" "}
-          </a>
-          <a
-            href="#"
-            className="py-2 px-4 my-2 hover:text-blue-500 "
-            onClick={() => handleAnchorClick("About")}>
-            About
-          </a>
-          <a
-            href="#"
-            className="py-2 px-4 my-2 hover:text-blue-500 "
-            onClick={() => handleAnchorClick("Anchor 3")}>
-            Why
-          </a>
-        </div>
+            </li>
+            <li className="">
+              <a href="" onClick={handleSidebarToggle}>
+                Why
+              </a>
+            </li>
+            <li className=" " onClick={handleSidebarToggle}>
+              <a href="">Clients</a>
+            </li>
+            <li className="" onClick={handleSidebarToggle}>
+              <a href="">Blogs</a>
+            </li>
+            <li className="" onClick={handleSidebarToggle}>
+              <a href="">About Us</a>
+            </li>
+          </ul>
+        </nav>
       </div>
 
       {/* ------------------------- Header ---------------------------- */}
 
       <div className="bg-bgGray flex justify-center fixed z-50 w-full items-center px-[5%]">
-        <div className=" flex items-center justify-between w-full 2xl:max-w-[1200px]">
+        <div className="text-sm flex items-center justify-between w-full 2xl:max-w-[1200px]">
           <FontAwesomeIcon
             icon={faBars}
             onClick={handleSidebarToggle}
-            className="px-3 py-5 size-6 mr-2 md:mr-2 sm:block md:block mdx:block lg:hidden  xl:hidden 2xl:hidden"
+            className="px-3 py-5 size-6 mr-2 md:mr-2 sm:block md:block lg:hidden  xl:hidden 2xl:hidden"
           />
           <div className="font-small flex items-center justify-between sm:justify-between">
             <img
@@ -153,134 +107,60 @@ export function Header() {
               alt="logo"
               width="110px"
             />
-
-            <nav className=" hidden sm:hidden md:hidden mdx:hidden lg:block xl:block 2xl:block 2xl:mr-28">
-              <div id="nav-links" className=" mx-3">
-                <a
-                  key={1}
-                  href=""
-                  className={`py-5 mx-3 hover:border-b-2 hover:border-blue-700 ${
-                    activeIndex !== null && activeIndex !== 1
-                      ? "opacity-50"
-                      : ""
-                  }`}
-                  onMouseEnter={() => setActiveIndex(1)}
-                  onMouseLeave={() => setActiveIndex(null)}>
-                  Top 3%
-                </a>
-
-                <button
-                  className="mx-3 py-5  relative "
-                  onMouseEnter={handleDropdown}
-                  onMouseLeave={handleDropdown}>
-                  <div
-                    key={2}
-                    className={` ${
-                      activeIndex !== null && activeIndex !== 2
-                        ? "opacity-50"
-                        : ""
-                    }`}
-                    onMouseEnter={() => setActiveIndex(2)}
-                    onMouseLeave={() => setActiveIndex(null)}>
+            <nav className="hidden lg:block">
+              <ul className="flex gap-4 px-4 hover:cursor-pointer ">
+                <li className="py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800">
+                  <a href="">Top 3%</a>
+                </li>
+                <li className="group flex justify-center items-center relative">
+                  <div className="py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800">
                     Hire Talent
                     <FontAwesomeIcon
                       icon={faArrowDown}
-                      className={`size-2 mx-1 ${
-                        hover ? "rotate-180" : "rotate-0"
-                      }`}
+                      width="7px"
+                      className="ml-1 group-hover:rotate-180"
                     />
-                    <div
-                      className={`shadow-custom absolute bg-bgGray mt-5 flex flex-col items-start justify-normal ${
-                        hover ? "flex" : "hidden"
-                      }`}>
-                      <a href="" className="px-4 py-3 hover:text-blue-700">
-                        Developers
-                      </a>
-
-                      <a href="" className="px-4 py-3 hover:text-blue-700">
-                        Designers
-                      </a>
-
-                      <a
-                        href=""
-                        className="px-4 py-3 hover:text-blue-700 whitespace-nowrap">
-                        Marketing Experts
-                      </a>
-
-                      <a
-                        href=""
-                        className=" px-4 py-3 hover:text-blue-700 whitespace-nowrap">
-                        Product Managers
-                      </a>
-
-                      <a
-                        href=""
-                        className="whitespace-nowrap px-4 py-3 hover:text-blue-700 ">
-                        Project Managers
-                      </a>
-
-                      <a
-                        href=""
-                        className="whitespace-nowrap px-4 py-3 hover:text-blue-700 ">
-                        Finance Experts
-                      </a>
-                    </div>
                   </div>
-                </button>
-
-                <a
-                  key={3}
-                  href=""
-                  className={` mx-3 py-5 hover:border-b-2 hover:border-blue-700 ${
-                    activeIndex !== null && activeIndex !== 3
-                      ? "opacity-50"
-                      : ""
-                  }`}
-                  onMouseEnter={() => setActiveIndex(3)}
-                  onMouseLeave={() => setActiveIndex(null)}>
-                  Why
-                </a>
-                <a
-                  key={4}
-                  href=""
-                  className={`mx-3 py-5 hover:border-b-2 hover:border-blue-700 ${
-                    activeIndex !== null && activeIndex !== 4
-                      ? "opacity-50"
-                      : ""
-                  }`}
-                  onMouseEnter={() => setActiveIndex(4)}
-                  onMouseLeave={() => setActiveIndex(null)}>
-                  Clients
-                </a>
-                <a
-                  key={5}
-                  href=""
-                  className={`mx-3  py-5 hover:border-b-2 hover:border-blue-700 ${
-                    activeIndex !== null && activeIndex !== 5
-                      ? "opacity-50"
-                      : ""
-                  }`}
-                  onMouseEnter={() => setActiveIndex(5)}
-                  onMouseLeave={() => setActiveIndex(null)}>
-                  Blog
-                </a>
-                <a
-                  key={6}
-                  href=""
-                  className={`mx-3 py-5 hover:border-b-2 hover:border-blue-700 ${
-                    activeIndex !== null && activeIndex !== 6
-                      ? "opacity-50"
-                      : ""
-                  }`}
-                  onMouseEnter={() => setActiveIndex(6)}
-                  onMouseLeave={() => setActiveIndex(null)}>
-                  About
-                </a>
-              </div>
+                  <div className="hidden group-hover:block">
+                    <ul className="bg-white py-5 px-10 absolute top-16 left-0 text-nowrap grid gap-4 hover:cursor-pointer">
+                      <li className="hover:text-blue-800 ">
+                        <a href="">Developers</a>
+                      </li>
+                      <li className="hover:text-blue-800">
+                        <a href=""></a>Designers
+                      </li>
+                      <li className="hover:text-blue-800">
+                        <a href=""></a>Marketing Experts
+                      </li>
+                      <li className="hover:text-blue-800">
+                        <a href=""></a>Project Mangers
+                      </li>
+                      <li className="hover:text-blue-800">
+                        <a href=""></a>Product Managers
+                      </li>
+                      <li className="hover:text-blue-800">
+                        <a href=""></a>Finance Experts
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li className="py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800">
+                  <a href="">Why</a>
+                </li>
+                <li className="py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800">
+                  <a href="">Clients</a>
+                </li>
+                <li className="py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800">
+                  <a href="">Blogs</a>
+                </li>
+                <li className="py-5 border-opacity-0 hover:border-opacity-100 border-b-2 border-blue-800">
+                  <a href="">About Us</a>
+                </li>
+              </ul>
             </nav>
           </div>
 
-          <div className=" hidden sm:hidden md:hidden mdx:hidden lg:block 2xl:block">
+          <div className=" hidden sm:hidden md:hidden lg:block 2xl:block">
             <a href="" className="py-5 hover:text-blue-500">
               Apply as a Freelance
             </a>
