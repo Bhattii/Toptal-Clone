@@ -5,6 +5,8 @@ import { TheToptalScreenProcess } from "../components/TheToptalScreenProcess";
 import { ConnectTheTop } from "../components/ConnectTheTop";
 import { ToptalDevelopers } from "../components/ToptalDevelopers";
 import ExploreTrending from "../components/ExploreTrending";
+import { JoinCommunity } from "../components/JoinCommunity";
+import Footer from "../layouts/Footer";
 
 export const Top = () => {
   return (
@@ -16,6 +18,8 @@ export const Top = () => {
       <ConnectTheTop />
       <ToptalDevelopers />
       <ExploreTrending />
+      <JoinCommunity />
+      <Footer />
     </>
   );
 };

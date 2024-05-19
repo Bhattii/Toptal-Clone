@@ -47,7 +47,7 @@ export const TheToptalScreenProcess = () => {
                 <div>
                   <h3 className="text-2xl">In-Depth Skill Review</h3>
                   <p className="py-3">
-                    We also test each applicant's technical knowledge and
+                    We also test each applicant technical knowledge and
                     problem-solving ability through various assessments. Every
                     member of the Toptal network is an expert in their domain,
                     and we typically only advance candidates with exceptional
@@ -92,8 +92,8 @@ export const TheToptalScreenProcess = () => {
                   <h3 className="text-2xl">Test Projects</h3>
                   <p className="py-3">
                     Each candidate is assigned a test project to evaluate
-                    whether they can "walk the walk." Test projects take 1-3
-                    weeks are comprehensive and provide real-world scenarios for
+                    whether they can walk the walk. Test projects take 1-3 weeks
+                    are comprehensive and provide real-world scenarios for
                     candidates to demonstrate their competence, thoroughness,
                     professionalism, and integrity.
                   </p>
@@ -157,7 +157,7 @@ export const TheToptalScreenProcess = () => {
             </div>
             <p className="w-1/2 text-center text-sm text-gray-400 py-8">
               The screening process may vary or be changed as needed at the
-              company's discretion Toptal Connects the Top 3% of Freelanc
+              company discretion Toptal Connects the Top 3% of Freelanc
             </p>
           </div>
         </div>
