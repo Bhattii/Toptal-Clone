@@ -8,19 +8,11 @@ import logo from "../assets/img/logo.png";
 import { useState } from "react";
 
 export function Header() {
-  const [hover, setHover] = useState(false);
   const [activeIndex, setActiveIndex] = useState(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
-  const handleDropdown = () => {
-    setHover(!hover);
-  };
   const handleSidebarToggle = () => {
     setIsSidebarOpen(!isSidebarOpen);
-  };
-
-  const handleAnchorClick = () => {
-    setIsSidebarOpen(false);
   };
 
   return (
