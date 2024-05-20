@@ -110,9 +110,7 @@ export function Header() {
                   }`}
                   onMouseEnter={() => setActiveIndex(1)}
                   onMouseLeave={() => setActiveIndex(null)}>
-                  <a href="" className={``}>
-                    Top 3%
-                  </a>
+                  <a href="">Top 3%</a>
                 </li>
                 <li
                   key={2}
