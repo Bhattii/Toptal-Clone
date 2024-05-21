@@ -1,5 +1,6 @@
 import { WhyNav } from "../components/WhyNav";
 import WhyToptal from "../components/WhyToptal";
+import { WhyToptalTable } from "../components/WhyToptalTable";
 import { Header } from "../layouts/Header";
 
 export const Why = () => {
@@ -8,6 +9,7 @@ export const Why = () => {
       <Header />
       <WhyToptal />
       <WhyNav />
+      <WhyToptalTable />
     </>
   );
 };
