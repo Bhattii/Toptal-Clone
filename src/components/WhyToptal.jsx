@@ -1,7 +1,7 @@
 const WhyToptal = () => {
   return (
     <>
-      <div className="bg-blue-900 py-40 px-11 flex flex-col justify-center items-center">
+      <div className="bg-blue-900 py-40 px-11 flex flex-col justify-center items-center overflow-hidden">
         <div className="max-w-[1200px] flex flex-col justify-center items-center">
           <div className="text-white font-light text-center w-2/3 flex flex-col items-center justify-center gap-5">
             <h2 className="text-5xl">Why Toptal?</h2>

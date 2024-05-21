@@ -6,7 +6,7 @@ function ReadyToGetStarted() {
   return (
     <>
       <div className="bg-gray-100 p-11 flex flex-col justify-center items-center">
-        <div className="max-w-[1200px] flex flex-col justify-center items-center">
+        <div className="max-w-[1200px] flex flex-col justify-center items-center overflow-hidden">
           <div className="mb-11 flex flex-col lg:flex-row gap-3 justify-center items-center">
             <h2 className="text-xl text-gray-900 font-semibold text-center xl:text-4xl">
               Ready to get started?

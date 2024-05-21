@@ -1,6 +1,6 @@
 const CertificateSlider = () => {
   return (
-    <div className=" bg-gray-100  flex justify-center items-center">
+    <div className=" bg-gray-100  flex justify-center items-center overflow-hidden">
       <div
         className={`my-10 p-5 flex  justify-around gap-5 items-center flex-wrap relative`}>
         <div className=" absolute left-0 right-0 top-0 bottom-0 w-full h-full bg-white opacity-40"></div>

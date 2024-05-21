@@ -4,7 +4,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 export const ToptalDevelopers = () => {
   return (
     <>
-      <div className="bg-white p-11 flex justify-center">
+      <div className="bg-white p-11 flex justify-center overflow-hidden">
         <div className="max-w-[1200px]">
           <div className="border-b py-16 text-center sm:text-left">
             <div className="py-7">

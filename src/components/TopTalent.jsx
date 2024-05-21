@@ -1,7 +1,7 @@
 function TopTalent() {
   return (
     <>
-      <div className="bg-white p-20 flex flex-col justify-center items-center">
+      <div className="bg-white p-20 flex flex-col justify-center items-center overflow-hidden">
         <div className="max-w-[1200px] flex flex-col justify-center items-center">
           <div className="mb-11 flex flex-col lg:flex-row gap-3 justify-center items-center">
             <h2 className="text-2xl text-gray-700 text-center">

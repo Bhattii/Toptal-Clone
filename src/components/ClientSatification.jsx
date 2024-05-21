@@ -6,7 +6,7 @@ import bcgx from "../assets/img/BCG X.svg";
 function ClientSatification() {
   return (
     <>
-      <div className="bg-gray-100 p-11 flex flex-col justify-center items-center">
+      <div className="bg-gray-100 p-11 flex flex-col justify-center items-center overflow-hidden">
         <div className="max-w-[1200px] flex flex-col justify-center items-center">
           <div className=" flex flex-col justify-center items-center my-11 border-b-2">
             <h2 className="text-5xl text-gray-900 font-semibold text-center">

@@ -3,7 +3,7 @@ import screenProcess from "../assets/img/3ScreeningProcess.svg";
 export const TheToptalScreenProcess = () => {
   return (
     <>
-      <div className="bg-white p-11 flex flex-col justify-center items-center">
+      <div className="bg-white p-11 flex flex-col justify-center items-center overflow-hidden">
         <div className="max-w-[1200px] flex flex-col justify-center items-center">
           <div className="mb-16 flex flex-col  gap-3 justify-center items-center">
             <h2 className="text-5xl text-gray-900 font-semibold text-center">

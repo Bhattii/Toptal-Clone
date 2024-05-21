@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Hiring() {
   return (
     <>
-      <div className="bg-white p-11 flex flex-col justify-center items-center ">
+      <div className="bg-white p-11 flex flex-col justify-center items-center overflow:hidden">
         <div className="max-w-[1200px]">
           <h2 className="text-4xl text-center font-semibold">
             Hiring Made Easy

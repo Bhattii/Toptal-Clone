@@ -8,11 +8,11 @@ import { Why } from "./pages/Why";
 function App() {
   return (
     <>
-      <div className=" overflow-hidden">
+      <div>
         <Header />
         <Home />
-        {/* <Top /> */}
-        {/* <Why /> */}
+        <Top />
+        <Why />
       </div>
     </>
   );

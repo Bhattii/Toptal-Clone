@@ -9,8 +9,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Footer() {
   return (
     <>
-      <div className="bg-blue-900 p-11 flex flex-col justify-center items-center">
-        <div className="max-w-[1200px] text-white">
+      <div className="bg-blue-900 p-11 flex flex-col justify-center items-center overflow-hidden">
+        <div className="max-w-[1200px] text-white ">
           <div className=" text-center sm:text-left grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
             <div>
               <h3 className="font-semibold text-lg border-b border-gray-500 py-4 ">

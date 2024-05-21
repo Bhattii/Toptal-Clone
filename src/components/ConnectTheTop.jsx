@@ -2,8 +2,8 @@ import bg from "../assets/img/ConnectTheTopBG.png";
 export const ConnectTheTop = () => {
   return (
     <>
-      <div className="bg-blue-700 px-3 md:px-16 flex justify-center">
-        <div className="max-w-[1200px] flex justify-center items-center relative overflow-hidden">
+      <div className="bg-blue-700 px-3 md:px-16 flex justify-center overflow-hidden">
+        <div className="max-w-[1200px] flex justify-center items-center relative ">
           <img
             src={bg}
             alt="background image"

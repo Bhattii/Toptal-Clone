@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function DiscoverOurSkills() {
   return (
     <>
-      <div className="bg-gray-100 p-20 flex justify-center items-center ">
+      <div className="bg-gray-100 p-20 flex justify-center items-center overflow-hidden">
         <div className="max-w-[1200px]">
           <div className=" flex flex-col justify-center items-center my-4 ">
             <h2 className="text-5xl text-gray-900 font-semibold text-center">

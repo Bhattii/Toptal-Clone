@@ -1,7 +1,7 @@
 export const JoinCommunity = () => {
   return (
     <>
-      <div className="bg-white flex justify-center">
+      <div className="bg-white flex justify-center overflow-hidden">
         <div className="max-w-[1200px text-center text-nowrap">
           <div className=" text-sm sm:text-xl flex justify-center items-center flex-col lg:flex-row gap-7 border-t p-20 w-full">
             <h2 className="">Join the Toptal community.</h2>

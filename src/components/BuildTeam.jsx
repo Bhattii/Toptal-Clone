@@ -9,7 +9,7 @@ import shopify from "../assets/img/shopify.svg";
 
 function BuildTeam() {
   return (
-    <div className="bg-gray-100 p-16 flex justify-center">
+    <div className="bg-gray-100 p-16 flex justify-center overflow-hidden">
       <div className="max-w-[1200px]   gap-5 flex flex-col justify-center md:flex-row">
         <div className=" lg:w-1/2">
           <div className="mb-16">

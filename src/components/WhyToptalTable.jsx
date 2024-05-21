@@ -1,7 +1,7 @@
 export const WhyToptalTable = () => {
   return (
     <>
-      <div className="bg-white flex justify-center items-center">
+      <div className="bg-white flex justify-center items-center overflow-hidden">
         <div className="max-w-[1200px] lg:text-nowrap">
           <div className="flex flex-col items-center w-full">
             <div className="w-full">
