@@ -6,7 +6,7 @@ function MeetTalent() {
   return (
     <>
       <div className="bg-gray-100 p-11 flex flex-col justify-center items-center">
-        <div className="max-w-[1200px]">
+        <div className="max-w-[1200px] overflow-hidden">
           <h2 className="text-4xl text-center font-semibold my-20">
             Meet Talent in Our Network
           </h2>

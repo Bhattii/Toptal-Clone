@@ -85,8 +85,8 @@ export function Header() {
 
       {/* ------------------------- Header ---------------------------- */}
 
-      <div className="bg-bgGray flex justify-center fixed z-50 w-full items-center px-[5%]">
-        <div className="text-sm flex items-center justify-between w-full 2xl:max-w-[1200px]">
+      <div className="bg-bgGray flex justify-center w-full fixed z-50 items-center ">
+        <div className="text-sm flex items-center justify-between w-full 2xl:max-w-[1200px] px-[5%]">
           <FontAwesomeIcon
             icon={faBars}
             onClick={handleSidebarToggle}

@@ -10,7 +10,7 @@ function OrganizationsChoose() {
   return (
     <>
       <div
-        className="bg-white p-11 flex flex-col justify-center items-center"
+        className="bg-white p-11 flex flex-col justify-center items-center overflow-hidden"
         id="id='Organization'">
         <div className="max-w-[1200px]">
           <div className=" flex flex-col justify-center items-center mb-4 ">
