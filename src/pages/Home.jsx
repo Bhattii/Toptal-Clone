@@ -18,22 +18,24 @@ import { Header } from "../layouts/Header";
 export const Home = () => {
   return (
     <>
-      <Header />
-      <HireTheTop />
-      <CertificateSlider />
-      <ImagesSlider />
-      <Developer />
-      <BuildTeam />
-      <Hiring />
-      <MeetTalent />
-      <OrganizationsChoose />
-      <Collaborations />
-      <ReadyToGetStarted />
-      <ClientSatification />
-      <ExploreTrending />
-      <DiscoverOurSkills />
-      <TopTalent />
-      <Footer />
+      <div id="home">
+        <Header />
+        <HireTheTop />
+        <CertificateSlider />
+        <ImagesSlider />
+        <Developer />
+        <BuildTeam />
+        <Hiring />
+        <MeetTalent />
+        <OrganizationsChoose />
+        <Collaborations />
+        <ReadyToGetStarted />
+        <ClientSatification />
+        <ExploreTrending />
+        <DiscoverOurSkills />
+        <TopTalent />
+        <Footer />
+      </div>
     </>
   );
 };

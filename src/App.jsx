@@ -7,8 +7,8 @@ import { Why } from "./pages/Why";
 function App() {
   return (
     <>
-      {/* <Home /> */}
-      {/* <Top /> */}
+      <Home />
+      <Top />
       <Why />
     </>
   );

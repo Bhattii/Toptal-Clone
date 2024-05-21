@@ -11,15 +11,17 @@ import Footer from "../layouts/Footer";
 export const Top = () => {
   return (
     <>
-      <Header />
-      <Why3 />
-      <CertificateSlider />
-      <TheToptalScreenProcess />
-      <ConnectTheTop />
-      <ToptalDevelopers />
-      <ExploreTrending />
-      <JoinCommunity />
-      <Footer />
+      <div id="top">
+        <Header />
+        <Why3 />
+        <CertificateSlider />
+        <TheToptalScreenProcess />
+        <ConnectTheTop />
+        <ToptalDevelopers />
+        <ExploreTrending />
+        <JoinCommunity />
+        <Footer />
+      </div>
     </>
   );
 };

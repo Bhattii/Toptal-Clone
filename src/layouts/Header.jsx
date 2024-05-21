@@ -93,12 +93,14 @@ export function Header() {
             className="px-3 py-5 size-6 mr-2 md:mr-2 sm:block md:block lg:hidden  xl:hidden 2xl:hidden"
           />
           <div className="font-small flex items-center justify-between sm:justify-between">
-            <img
-              src={logo}
-              className="py-5 smaller:mr-0"
-              alt="logo"
-              width="110px"
-            />
+            <a href="#home">
+              <img
+                src={logo}
+                className="py-5 smaller:mr-0"
+                alt="logo"
+                width="110px"
+              />
+            </a>
             <nav className="hidden lg:block">
               <ul className="flex gap-4 px-4 hover:cursor-pointer ">
                 <li
@@ -110,7 +112,7 @@ export function Header() {
                   }`}
                   onMouseEnter={() => setActiveIndex(1)}
                   onMouseLeave={() => setActiveIndex(null)}>
-                  <a href="">Top 3%</a>
+                  <a href="#top">Top 3%</a>
                 </li>
                 <li
                   key={2}
@@ -161,7 +163,7 @@ export function Header() {
                   }`}
                   onMouseEnter={() => setActiveIndex(3)}
                   onMouseLeave={() => setActiveIndex(null)}>
-                  <a href="">Why</a>
+                  <a href="#why">Why</a>
                 </li>
                 <li
                   key={4}
