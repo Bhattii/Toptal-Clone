@@ -15,6 +15,9 @@ export default {
       screens: {
         mdx: [{ max: '1053px', min: '1023px' }],
       },
+       listStyleType: {
+        'upper-alpha': 'upper-alpha',
+      },
     },
   },
   plugins: [],

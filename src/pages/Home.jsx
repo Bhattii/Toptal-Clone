@@ -13,11 +13,13 @@ import OrganizationsChoose from "../components/OrganizationsChoose";
 import ReadyToGetStarted from "../components/ReadyToGetStarted";
 import TopTalent from "../components/TopTalent";
 import Footer from "../layouts/Footer";
+import { Header } from "../layouts/Header";
 
 export const Home = () => {
   return (
     <>
-      <div id="home">
+      <div>
+        <Header />
         <HireTheTop />
         <CertificateSlider />
         <ImagesSlider />

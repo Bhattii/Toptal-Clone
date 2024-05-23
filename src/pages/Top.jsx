@@ -7,11 +7,12 @@ import { ToptalDevelopers } from "../components/ToptalDevelopers";
 import ExploreTrending from "../components/ExploreTrending";
 import { JoinCommunity } from "../components/JoinCommunity";
 import Footer from "../layouts/Footer";
+import { Header } from "../layouts/Header";
 
 export const Top = () => {
   return (
     <>
-      <div id="top">
+     <Header/>
         <Why3 />
         <CertificateSlider />
         <TheToptalScreenProcess />
@@ -20,7 +21,7 @@ export const Top = () => {
         <ExploreTrending />
         <JoinCommunity />
         <Footer />
-      </div>
+      
     </>
   );
 };

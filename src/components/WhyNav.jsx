@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const WhyNav = () => {
   return (
     <>
@@ -7,13 +9,13 @@ export const WhyNav = () => {
             <div className=" text-blue-900 text-xl  font-semibold bg-white shadow-lg relative bottom-28 left-0 right-0 overflow-hidden">
               <ul className="flex justify-around h-full w-full">
                 <li className="py-10 sm:px-5 md:px-10 lg:px-16 xl:px-32 border-b-4 border-opacity-0 border-blue-900 hover:border-opacity-100">
-                  <a href="#">Why</a>
+                  <Link to='/why' >Why</Link>
                 </li>
-                <li className="py-10 sm:px-5 md:px-10 lg:px-20 xl:px-32 border-b-4 border-opacity-0 border-blue-900 hover:border-opacity-100">
-                  <a href="">How</a>
+                <li className="py-10 sm:px-5 md:px-10 lg:px-20 xl:px-32 border-b-4 border-opacity-0 border-blue-900 hover:border-opacity-100 ">
+                  <Link to="/how">How</Link>
                 </li>
-                <li className="py-10 sm:px-5 md:px-10 lg:px-20 xl:px-32 border-b-4 border-opacity-0 border-blue-900 hover:border-opacity-100">
-                  <a href="">What</a>
+                <li className="py-10 sm:px-5 md:px-10 lg:px-20 xl:px-32 border-b-4 border-opacity-0 border-blue-900 hover:border-opacity-100 ">
+                <Link to="/how">What</Link>
                 </li>
               </ul>
             </div>
