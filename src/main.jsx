@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./components/ErrorPage.jsx";
@@ -9,6 +8,7 @@ import { Top } from "./pages/Top.jsx";
 import { Why } from "./pages/Why.jsx";
 import { WhyNavData } from "./components/WhyNavData.jsx";
 import { HowNavData } from "./components/HowNavData.jsx";
+import { Clients } from "./pages/Clients.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -34,8 +34,13 @@ const router = createBrowserRouter([
         element: <HowNavData />,
       },
     ],
-    errorElement: <ErrorPage />,
+  
   },
+  {
+  path: "/clients",
+  element: <Clients/>,
+  errorElement: <ErrorPage />,
+},
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

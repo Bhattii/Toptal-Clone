@@ -18,7 +18,7 @@ import { Header } from "../layouts/Header";
 export const Home = () => {
   return (
     <>
-      <div>
+     
         <Header />
         <HireTheTop />
         <CertificateSlider />
@@ -35,7 +35,7 @@ export const Home = () => {
         <DiscoverOurSkills />
         <TopTalent />
         <Footer />
-      </div>
+     
     </>
   );
 };

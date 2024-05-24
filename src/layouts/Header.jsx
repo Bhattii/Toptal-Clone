@@ -175,7 +175,7 @@ export function Header() {
                   }`}
                   onMouseEnter={() => setActiveIndex(4)}
                   onMouseLeave={() => setActiveIndex(null)}>
-                  <a href="">Clients</a>
+                  <Link to='/clients'>Clients</Link>
                 </li>
                 <li
                   key={5}
