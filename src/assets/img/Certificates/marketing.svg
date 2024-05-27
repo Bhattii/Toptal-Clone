@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 2" height="26" id="Layer_2" viewBox="0 0 30 30" width="26">
+  <defs>
+    <style>.cls-2{fill:none;stroke:#204ecf;stroke-miterlimit:10}</style>
+  </defs>
+  <g id="Icons">
+    <path class="cls-2" d="M28.5 4.5v3l-10 9-2 11h-3l-2-11-10-9v-3h27zM18.5 16.5H14"/>
+    <path d="M0 0h30v30H0z" style="fill:none;stroke-width:0"/>
+  </g>
+</svg>
