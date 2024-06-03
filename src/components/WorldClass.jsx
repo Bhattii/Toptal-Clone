@@ -19,7 +19,7 @@ export const WorldClass = () => {
 							/>
 							<button
 								type='submite'
-								className='bg-green-500 hover:bg-green-600 text-nowrap py-2 px-5'>
+								className='bg-green-500 hover:bg-green-600 sm:text-nowrap py-2 px-5'>
 								Sign Me Up
 							</button>
 						</div>
