@@ -12,7 +12,6 @@ export const BlogUIEngeering = () => {
 					<div className=' shadow-xl'>
 						<img
 							src={Engineering}
-							\\
 							className='w-full'
 						/>
 						<div className='p-5'>
