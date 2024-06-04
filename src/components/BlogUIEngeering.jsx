@@ -49,11 +49,41 @@ export const BlogUIEngeering = () => {
 									src={image}
 									alt=''
 								/>
-								<div>
-									<div>
+								<div className='ml-2'>
+									<div className='flex gap-1'>
 										<span>By</span>
-										<h3>Anna Muratova</h3>
+										<h3 className=' font-semibold'>Anna Muratova</h3>
 									</div>
+									<div className='flex gap-1'>
+										<svg
+											width='16'
+											height='16'
+											viewBox='0 0 16 16'
+											fill='green'
+											xmlns='http://www.w3.org/2000/svg'>
+											<path
+												fill='green'
+												d='m2.3438,5.6562l-2.3438,2.3438,2.3438,2.3438v3.3137h3.3137l2.3425,2.3425,2.3425-2.3425h3.315v-3.315l2.3425-2.3425-2.3425-2.3425v-3.3137h-3.3138l-2.3437-2.3438-2.3438,2.3438h-3.3125v3.3125Zm5.0488,2.7528l2.754-2.7654.9705.9739-3.7245,3.7399-.9705-.9739-1.3672-1.3733.9705-.9752,1.3672,1.3739Z'></path>
+											<path
+												className='text-white dark:text-transparent'
+												fillRule='evenodd'
+												clipRule='evenodd'
+												d='M10.1465 5.64374L7.39254 8.4091L6.02535 7.03518L5.05485 8.01039L6.42204 9.38364L7.39254 10.3575L11.117 6.61761L10.1465 5.64374Z'
+												fill='white'></path>
+										</svg>
+										<h3 className='text-green-600 whitespace-nowrap text-sm'>
+											<span className='font-semibold '>Verified Expert</span> in
+											Design
+										</h3>
+									</div>
+									<p>
+										Anna is a UI/UX designer experienced in creating UI
+										animations and improving the usability of digital products.
+										She has collaborated with a range of clients, from small
+										startups to larger companies, to create intuitive mobile
+										apps, redesign websites with improved visual aesthetics, and
+										establish branding that represents company values.
+									</p>
 								</div>
 							</div>
 						</div>
