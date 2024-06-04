@@ -12,7 +12,7 @@ export const BlogUIEngeering = () => {
 					<div className=' shadow-xl'>
 						<img
 							src={Engineering}
-							alt=''
+							\\
 							className='w-full'
 						/>
 						<div className='p-5'>
