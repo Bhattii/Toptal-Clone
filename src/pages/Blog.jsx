@@ -7,6 +7,7 @@ import { Engineering } from '../components/Engineering';
 import { Header } from '../layouts/Header';
 import { WorldClass } from '../components/WorldClass';
 import { BlogUIEngeering } from '../components/BlogUIEngeering';
+import { MostReadArticle } from '../components/MostReadArticle';
 
 export const Blog = () => {
 	return (
@@ -21,6 +22,7 @@ export const Blog = () => {
 			</div>
 			<WorldClass />
 			<BlogUIEngeering />
+			<MostReadArticle />
 			{/* <Footer /> */}
 		</>
 	);
