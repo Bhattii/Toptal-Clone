@@ -3,11 +3,13 @@
 import { BlogHeader } from '../components/BlogHeader';
 import { Engineering } from '../components/Engineering';
 
-// import Footer from '../layouts/Footer';
+import Footer from '../layouts/Footer';
 import { Header } from '../layouts/Header';
 import { WorldClass } from '../components/WorldClass';
 import { BlogUIEngeering } from '../components/BlogUIEngeering';
 import { MostReadArticle } from '../components/MostReadArticle';
+import { ToptalDevelopers } from '../components/ToptalDevelopers';
+import { JoinCommunity } from '../components/JoinCommunity';
 
 export const Blog = () => {
 	return (
@@ -23,7 +25,10 @@ export const Blog = () => {
 			<WorldClass />
 			<BlogUIEngeering />
 			<MostReadArticle />
-			{/* <Footer /> */}
+			<WorldClass />
+			<ToptalDevelopers />
+			<JoinCommunity />
+			<Footer />
 		</>
 	);
 };

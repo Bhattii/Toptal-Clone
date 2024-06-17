@@ -4,7 +4,7 @@ export const WorldClass = () => {
 	return (
 		<>
 			<div className='bg-blue-900 flex items-center justify-center py-11 px-5 lg:p-11'>
-				<div className='max-w-[1200px] flex flex-col lg:flex-row justify-center lg:items-baseline py-28 gap-20 lg:gap-10 text-white'>
+				<div className='max-w-[1200px] flex flex-col lg:flex-row justify-center lg:items-baseline py-20 gap-20 lg:gap-10 text-white'>
 					<h2 className='text-4xl text-center'>
 						World-class articles, delivered weekly.
 					</h2>

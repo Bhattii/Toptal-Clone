@@ -6,8 +6,8 @@ import { faAngleRight, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 export const MostReadArticle = () => {
 	return (
 		<>
-			<div className='bg-gray-100'>
-				<div className='max-w-[1200px] p-11 w-full'>
+			<div className='bg-gray-100 flex justify-center p-5 md:p-11 items-center w-full'>
+				<div className='max-w-[1200px] py-11 w-full'>
 					<div>
 						<h2 className='text-3xl '>Most-read Articles</h2>
 						<hr className='my-5 w-full' />
