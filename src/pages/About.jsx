@@ -2,6 +2,7 @@
 
 import { AboutNav } from '../components/AboutNav';
 import { AboutToptal } from '../components/AboutToptal';
+import { LeadershipTeam } from '../components/LeadershipTeam';
 import { Header } from '../layouts/Header';
 
 export const About = () => {
@@ -9,9 +10,8 @@ export const About = () => {
 		<>
 			<Header />
 			<AboutToptal />
-			<div className='sticky top-32 w-full z-10'>
-				<AboutNav />
-			</div>
+			<AboutNav />
+			<LeadershipTeam />
 		</>
 	);
 };
