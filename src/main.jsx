@@ -12,6 +12,7 @@ import { WhyNavData } from './components/WhyNavData.jsx';
 import { HowNavData } from './components/HowNavData.jsx';
 import { Clients } from './pages/Clients.jsx';
 import { Blog } from './pages/Blog.jsx';
+import { About } from './pages/About.jsx';
 const router = createBrowserRouter([
 	{
 		path: '/',
@@ -50,7 +51,7 @@ const router = createBrowserRouter([
 	},
 	{
 		path: '/about-us',
-		element: <Blog />,
+		element: <About />,
 		errorElement: <ErrorPage />,
 	},
 ]);
