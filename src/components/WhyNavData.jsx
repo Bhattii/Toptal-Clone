@@ -1,6 +1,7 @@
 export const WhyNavData = () => {
   return (
     <>
+  
       <div className="bg-white flex justify-center items-center overflow-hidden" id="why">
         <div className="max-w-[1200px] lg:text-nowrap">
           <div className="flex flex-col items-center w-full">
